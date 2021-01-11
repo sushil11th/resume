@@ -13,6 +13,7 @@ disable404 = true
 
 [params]
 
+publishDir = "docs"
 # Meta
     description = "Hugo Responsive Resume/CV Theme for Developers"
     author = "Pavel Kanyshev"
