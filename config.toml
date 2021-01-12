@@ -10,10 +10,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 disableRSS = true
 disableSitemap = true
 disable404 = true
-
+publishDir = "docs"
 [params]
 
-publishDir = "docs"
+
 # Meta
     description = "Hugo Responsive Resume/CV Theme for Developers"
     author = "Pavel Kanyshev"
