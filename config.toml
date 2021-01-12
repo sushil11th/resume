@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://sushil11th.github.io/resume"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Sushil Kumar Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -15,8 +15,8 @@ publishDir = "docs"
 
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Hugo Responsive Resume/CV Theme"
+    author = "Sushil Kumar"
 
 # Theme styles
 
@@ -31,8 +31,8 @@ publishDir = "docs"
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
+        name = "Sushil KUmar"
+        tagline = "Aws Certified | Devops | Kubernetes | Docker | Cloud Computing | Consultant "
         avatar = "profile.png"
 
     # Contact section
@@ -42,32 +42,32 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: sushil1th@gmail.com"
+        title = "https://sushil11th.github.io/resume"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+919501801081"
+        title = "+919501801081"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//sushil11th.github.io/resume"
+        title = "sushil11th.github.io/resume"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/sushil11th"
+        title = "linkedin.com/in/sushil11th"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/sushil11th"
+        title = "github.com/sushil11th"
 
         [[params.contact.list]]
         class = "twitter"
