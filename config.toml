@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://sushil11th.github.io/resume"
+baseurl = "https://sushil11th.github.io/resume/"
 languageCode = "en-us"
 title = "Sushil Kumar Resume"
 theme = "hugo-orbit-theme"
@@ -31,7 +31,7 @@ publishDir = "docs"
 
     # Profile section
     [params.profile]
-        name = "Sushil KUmar"
+        name = "Sushil Kumar"
         tagline = "Aws Certified | Devops | Kubernetes | Docker | Cloud Computing | Consultant "
         avatar = "profile.png"
 
