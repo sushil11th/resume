@@ -2,7 +2,7 @@ name = "Orbit"
 license = "MIT"
 licenselink = "//github.com/aerohub/hugo-orbit-theme/blob/master/LICENSE.md"
 description = "Responsive Resume/CV Theme for Developers"
-homepage = "//github.com/sushil11th/sushil.github.io"
+homepage = "//sushil11th.github.io/resume/"
 tags = ["cv", "resume", "colour schemes"]
 features = ["responsive", "colour schemes"]
 min_version = 0.16
@@ -14,5 +14,5 @@ min_version = 0.16
 # If porting an existing theme
 [original]
   name = "Sushil Kumar"
-  homepage = "//github.com/sushil11th/sushil.github.io"
-  repo = "//github.com/sushil11th/sushil.github.io"
+  homepage = "//sushil11th.github.io"
+  repo = "//sushil11th.github.io"

@@ -43,7 +43,7 @@ publishDir = "docs"
         class = "email"
         icon = "fa-envelope"
         url = "mailto: sushil1th@gmail.com"
-        title = "https://sushil11th.github.io/resume"
+        title = "sushil1th@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -81,14 +81,31 @@ publishDir = "docs"
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
-
+        degree = "Master of Business Administration"
+		study = "Information Technology"
+        college = "Symbiosis Institute of Management Studies"
+        dates = "2016 – 2018"
+		
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "B.TECH"
+		study = "Computer Science and Enggineering"
+        college = "Punjab Technical University"
+        dates = "2006 – 2010"
+		aggregate = "71%"
+		
+		[[params.education.list]]
+        degree = "12th(Non-Medical)"
+		study = "High School/Secondary Certificate"
+        college = "Himachal Pradesh Board Of School Education"
+        dates = "2005 – 2006"
+		aggregate = "67%"
+
+		[[params.education.list]]
+        degree = "10th"
+		study = "matriculation school"
+        college = "Central Board of Secondary Education"
+        dates = "2002 – 2003"
+		aggregate = "67%"
 
     # Languages section
     [params.language]
@@ -97,29 +114,15 @@ publishDir = "docs"
 
         [[params.language.list]]
         language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Hindi"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "Punjabi"
         level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
-
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
-
-        [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Cooking"
 
 # Main body sections
 
@@ -130,7 +133,21 @@ publishDir = "docs"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = """Providing full stack servers & server-less Architecture based solutions with CloudFormation, Terraform, Kubernetes, Docker.
+		
+Cloud infrastructure handling with expertise with Ec2,RDS,ElasticBeanstalk,Elastic Cache,S3,MongoDB/Mysql(with replicaset), Autoscaling, Vpc, Transit gateway, Lambda, Ses, Route53.
+
+Monitoring/Alerting based solutions with Nagios and New relic, Site24x7, CloudWatch, Promethus, Grafana, PagerDuty.
+
+Devops based solutions with CI/CD based build deployment and Release Management with Ansible, Rundeck, Jenkins, Git(github,bitbucket,gitlab), Artifactory management with Nexus and Jfrog
+
+Security based solutions with Alienvault as a IDS, Nessus, Oswap, Burp suite, Aws Guardduty, Aws waf.
+
+Audit/Compliance based solutions with Knowbe4, Aws security hub, System Hardening. (CIS,SOC,PCI,GLBA,HIPPA)
+
+***AWS Certified Solutions Architect Associate***
+
+***AWS Certified Cloud Practitioner***"""
 
     # Experiences section
     [params.experiences]
@@ -139,22 +156,85 @@ publishDir = "docs"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Senior Software Engineer II"
+        dates = "Feb 2020 – Present"
+        company = "AlertEnterprise Inc., Chandigarh"
+        details = """Working on Kubernetes/Docker-based configurations and deployments with Helm and Argo CD.
+
+Build Compilation/Deployment/Release management with Bitbucket, Github, Jira, Jenkins Pipelines, GO CD for On-premise and cloud-based servers.
+
+Infrastructure Provisioning with Terraform across AWS/GCP."""
+        
+		[[params.jobs.list]]
+        position = "DevOps Consultant"
+        dates = "Dec 2019 – Feb 2019"
+        company = "Freelance"
+        details = """"""
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Technology Analyst"
+        dates = "Feb 2019 – Dec 2019"
+        company = "FIRMINIQ Pvt. Ltd., Chandīgarh"
+        details = """
+***Clients: Omron & DAP***
+
+Worked on ***Serverless architecture *** for the clients by using AWS Lambda, AWS API gateway, AWS Cognito.
+
+***Automation and CI/CD*** with the help of Jenkins pipeline, Semaphore Ci, AWS Code Build, AWS CodePipeline.
+
+***Cloud Infrastructure security*** with AWS WAF, AWS Macie, AWS GuardDuty.
+
+***Monitoring*** with AWS Cloudwatch Logs, Cloudwatch Events Rules and  AWS Lambda functions.
+
+***Infrastructure as code*** with cloudformation and terraform.
+
+Worked on Audit and Compilance prepration for HIPPA."""
+        
+		[[params.jobs.list]]
+        position = "DevOps Consultant"
+        dates = "Oct 2018 – Feb 2019"
+        company = "Freelance"
+        details = """"""
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Software Engineer II"
+        dates = "Oct 2016 – Oct 2018"
+        company = "Finxera Pvt. Ltd., Chandigarh"
+        details = """Provided Server oriented & Serverless Architecture-based solutions with CloudFormation, Terraform.
+		
+***Cloud infrastructure*** handling with expertise with Ec2, RDS, ElasticBeanstalk, API Gateway, Elastic Cache, S3, MongoDB/Mysql(with replica-set), Autoscaling, Vpc, Transit gateway, Lambda, SES, Route53.
+
+***Monitoring/Alerting based solutions*** with Nagios and New Relic, Site24x7, CloudWatch, Prometheus, Grafana, PagerDuty.
+
+***DevOps based solutions*** with CI/CD based build deployment and Release Management with Ansible, Rundeck, Jenkins, Git(GitHub, Bitbucket, Gitlab), Artifactory management with Nexus.
+
+***Security based solutions*** with Alienvault as an IDS, Nessus, Burp suite, Aws Guard duty, Aws WAF.
+
+***Audit/Compliance based solutions*** with Knowbe4, Aws security hub, System Hardening, AWS Guard duty, AWS Macie. (CIS,SOC,PCI,GLBA,HIPPA).
+
+***AWS DevOps Practices*** with Ansible, CloudFormation, Rundeck, Jenkins, Git, Nexus repository-oss."""
+		
+		[[params.jobs.list]]
+        position = "Senior System Administration"
+        dates = "Apr 2013 - Oct 2016"
+        company = "The Brihaspati Infotech Pvt. Ltd., Mohali"
+        details = """Explored all the aspects of Linux/System/Network Administration. Hands on expertise with cloud gaint hosting providers in the field AWS,Rackspace,Google Cloud,Digital Oceans,Godaddy, Azure.
+		
+***Server Health Status*** (Network Connectivity, Hardware Health Status,Disk Usage, CPU and Memory Monitoring) with Manual(iftop,iptraf,wireshark) and Automated monitoring solution (Nagios) and New Relic.
+		
+***Backup strategies*** with S3, Rsync(Full and Incremental),Cloud files(Rackspace) plus HDD based simple backup.
+		
+***Installation/Configuration/Updates*** of Antivirus on the Linux based servers with Clam AV,RkHunter,Maldelect,CSF/LFD(Automation Scan/Report based solutions).
+		
+***Installation/Configuration*** of Web-server based deployments(LAMP,LEMP,Node js and Parse server,WAMP,XAMPP with IIS,Tomacat).
+		
+***Configuration of Continuous*** Integration Collaboration tools(Git,Jira based deployments).
+		
+***Installation/Configuration*** of Virtual Environments(Virtual box and Vagrant based deployments).
+		
+***Installation/Configuration*** WHM/Cpanel,Webmin,VestaCP and other open source console panel.
+		
+***Installation/Configuration*** with Dell Sonicwall(NSA 2600 and Sonicwall Analyzer)."""
 
     # Projects section
     [params.projects]
@@ -195,27 +275,27 @@ publishDir = "docs"
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Cloud Computing & Management/AWS/GCP/Azure"
         level = "98%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "DevOps/Automation/Configuration Management/CI-CD"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Monitoring & Log Management"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Scripting/Bash/Python"
+        level = "60%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "Security & Audit/Compilance"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Kubernetes/Docker"
         level = "60%"
 
     # Footer section
@@ -228,4 +308,4 @@ publishDir = "docs"
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Sushil Kumar"
