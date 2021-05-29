@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         #if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GPAGES }}
+          deploy_key: ${{ secrets.GPAGES }}
           external_repository: sushil11th/sushil11th.github.io
           #publish_dir: ./public
           #   keep_files: true
