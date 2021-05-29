@@ -4,7 +4,7 @@ baseurl = "https://sushil11th.github.io/resume/"
 languageCode = "en-us"
 title = "Sushil Kumar Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+#googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
