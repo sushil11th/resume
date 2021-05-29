@@ -28,9 +28,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.gpages }}
+          github_token: ${{ secrets.GPAGES }}
           external_repository: resume/sushil11th.github.io
-          publish_dir: ./public
+          #publish_dir: ./public
           #   keep_files: true
           user_name: sushil11th
           user_email: sushil11th@email.com
