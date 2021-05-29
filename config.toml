@@ -72,8 +72,8 @@ publishDir = "docs"
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/sushilth"
+        title = "@sushil11th"
 
     # Education section
     [params.education]
