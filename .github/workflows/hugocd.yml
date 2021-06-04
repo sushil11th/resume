@@ -22,17 +22,10 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: cloudflare/wrangler-action@1.3.0
         #if: github.ref == 'refs/heads/main'
         with:
-          deploy_key: ${{ secrets.GPAGES }}
-          external_repository: sushil11th/sushil11th.github.io
-          #publish_dir: ./public
-          #   keep_files: true
-          user_name: sushil11th
-          user_email: sushil11th@email.com
-          publish_branch: master
-          publish_dir: docs
+          apiToken: ${{ secrets.CF_API_TOKEN }}
