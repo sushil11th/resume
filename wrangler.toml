@@ -1,0 +1,7 @@
+account_id = "9bdd880bdf44b01688e5169bbca38fc4"
+name = "sushilkumar"
+type = "webpack"
+workers_dev = false
+[site]
+bucket = "./pulic" # Add the directory with your static assets!
+entry-point = "./" # JS folder serving your assets
