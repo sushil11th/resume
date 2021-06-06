@@ -1,4 +1,5 @@
 account_id = "9bdd880bdf44b01688e5169bbca38fc4"
+zone_id = "19e6562c69f6a1f69eb07d6cef368f04"
 name = "sushilkumar"
 type = "webpack"
 workers_dev = false
